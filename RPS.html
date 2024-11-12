@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link href="RPS.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="packaging">
+
+    <center>
+        <div id="heading"><h1 id="RPS_heading">Rock-Paper-Scissor-Game!</h1></div>
+        <!-- first div area -->
+    <div id="outerone" class="outer">
+            
+            <div id="headouterone">
+                <h1>You</h1>
+            </div>
+        
+        <div class="choosydivpackaging">
+            <div class="choosycontainer" id="choosycontainerofyourock">
+                <button id="rockforyou" class="choosydiv rockchoosed youchoosy"></button>
+                <label for="rockforyou"class="chossylabels" id="labelrockforyou" >Rock</label>
+            </div>
+
+            <div class="choosycontainer"id="choosycontainerofyoupaper">
+                <button id="paperforyou" class="choosydiv paperchoosed youchoosy"></button>
+                <label for="paperforyou" class="chossylabels" id="labelpaperforyou">Paper</label>
+            </div>
+
+            <div class="choosycontainer"id="choosycontainerofyouscissor">
+                <button id="scissorforyou" class="choosydiv scissorchoosed youchoosy" ></button>
+                <label for="scissorforyou" class="chossylabels" id="labelscissorforyou">Scissor</label>
+            </div>
+        
+        </div>
+        
+    </div>
+
+    <!-- button div starts -->
+    <div id="Buttonsdiv">
+        <!-- <button class="buttons" id="stopbutton">Stop</button> -->
+
+        <button class="buttons" id="startbutton">Start</button>
+        
+        <button class="buttons" id="resetbutton">Reset</button>
+    </div>
+
+        <!-- second div area -->
+        <div id="outertwo" class="outer">
+            <div id="headoutertwo">
+                <h1>Computer</h1>
+            </div>
+
+            
+            <div class="choosydivpackaging">
+
+                <div class="choosycontainer"id="choosycontainerofcomprock">
+                    <button id="rockforcomputer" class="choosydiv rockchoosed"></button>
+                    <label for="rockforcomputer"class="chossylabels" id="labelrockforcomputer">Rock</label>
+                </div>
+
+                <div class="choosycontainer"id="choosycontainerofcomppaper">
+                    <button id="paperforcomputer" class="choosydiv paperchoosed"></button>
+                    <label for="paperforcomputer" class="chossylabels" id="labelpaperforcomputer">Paper</label>
+                </div>
+
+                <div class="choosycontainer"id="choosycontainerofcompscissor">
+                    <button id="scissorforcomputer" class="choosydiv scissorchoosed" ></button>
+                    <label for="scissorforcomputer" class="chossylabels" id="labelscissorforcomputer">Scissor</label>
+                </div>
+        
+            </div>
+
+        </div>
+    </center>
+
+    <!--this is the area for score on the left side  -->
+    <!-- your score -->
+    <div class="scorepackaging" id="scorepackingyou">
+        <div class="scoreheading">
+            <h1 class="headingofscore">Your Score</h1>
+        </div>
+
+        <div class="scoremeter">
+            <div class="innerscoremeter" id="youinnerscoremeter"></div>
+        </div>
+        <h1 class="score" id="youscore">0</h1>
+        <!-- <div class="scorearrow"></div> -->
+    
+
+    <!--computer score  -->
+
+    <div class="scorepackaging" id="scorepackingcomputer">
+        <div class="scoreheading">
+            <h1 class="headingofscore">Computer Score</h1>
+        </div>
+
+        <div class="scoremeter">
+            <div class="innerscoremeter" id="compinnerscoremeter"></div>
+        </div>
+        <!-- <div class="scorearrow"></div> -->
+
+        <h1 class="score" id="compuscore">0</h1>
+
+    </div>
+
+    <!-- Game history and About developer -->
+    <div id="div_outer_history">
+        <div id="history">
+            <div id="historyheading">
+                <h1>Past move Winnings</h1>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="credit">
+    <p style="display:'block'"> This is a Rock Paper Scissor game created by <mark>Mrunal malkar using Html,Css and offcourse Javascript!</mark></p>
+</div>
+
+<script src="RPS.js"></script>
+</body>
+</html>

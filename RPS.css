@@ -1,0 +1,233 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:border-box;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transition-duration: 2s;
+}
+
+#packaging{
+    height:100vh;
+    width:100vw;
+    background:linear-gradient(to right,lightgreen,cyan,bisque);
+    /* background-color: bisque; */
+}
+
+
+#heading{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    background:linear-gradient(to right,red,orange,yellow,orange,red);
+    height:60px;
+    border-bottom:2px double black;
+    /* bo:2px double black; */
+}
+
+#RPS_heading{
+    background:linear-gradient(to right,blue,red,orange,blue,orange,red,blue);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    margin-top:10px;
+}
+
+.outer{
+    height:400px;
+    width:1000px;
+    /* background-color: white; */
+    /* border:2px solid red; */
+}
+
+#outerone{
+    position:relative;
+    top:15px;
+}
+#outertwo{
+    position:relative;
+    top:60px;
+}
+/* outer div inner work starts */
+.chossylabels{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: darkcyan;
+    font-weight:500;
+    color:whitesmoke;
+    font-size:23px;
+}
+
+#headouterone{
+    width:62.5em;
+    height:fit-content;
+    background:linear-gradient(to right,red,orange,red)
+}
+#headoutertwo{
+    width:62.5em;
+    height:fit-content;
+    background:linear-gradient(to right,red,orange,red)
+}
+
+/* div of inside outerdiv */
+.choosydivpackaging{
+    /* background-color: aqua; */
+    height:363px;
+    width:1000px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.choosydiv{
+    margin-top:10px;
+    height:325px;
+    width:325px;
+    background-color: brown;
+    border-radius: 50%;
+}
+.youchoosy:hover{
+    border:5px double black;
+}
+.youchoosy:active{
+    border:10px double black;
+}
+/* inserting images in divs */
+.paperchoosed{
+    background-image: url("https://icon-library.com/images/rock-paper-scissors-icon/rock-paper-scissors-icon-6.jpg");
+    background-size:contain;
+}
+.scissorchoosed{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7SorQ2cpR0LqQIHIH2OMrpu3YAvllRDJSbr6t2aMYAQ9M-kX4Y9qoW5xj-u4Rjquyyvg&usqp=CAU");
+    background-size: contain;
+}
+.rockchoosed{
+    background-image:url("https://goodday451999.github.io/Rock-Paper-Scissors-Neo/images/stone.png");
+    background-size:contain;
+}
+
+/* your score area */
+.scorepackaging{
+    height:200px;
+    width:400px;
+    background-color: white;
+    /* display:flex; */
+    /* justify-content: center; */
+}
+#scorepackingyou{
+    position:absolute;
+    top:82px;
+    left:18px;
+}
+.scoreheading{
+    width:400px;
+    height:fit-content;
+    /* background-color: cornsilk; */
+    background:linear-gradient(to right,red,orange,red);
+    display:flex;
+    justify-content: center;
+}
+.scoremeter{
+    margin-left:5px;
+    position:relative;
+    top:20px;
+    height:70px;
+    width:385px;
+    /* background:linear-gradient(to right,red,orange,yellow,lightgreen,green); */
+    border:2px solid black;
+}
+/* .scorearrow{
+    height:80px;
+    width:10px;
+    background-color: black;
+} */
+.innerscoremeter{
+    position:absolute;
+    left:0px;
+    height:70px;
+    width:2px;
+    background-color:orangered;
+}
+.score{
+    height: 50px;
+    width:60px;
+    position:relative;
+    left:160px;
+    top:40px;
+    font-size:3em;
+    font-weight:525;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#scorepackingcomputer{
+    position:relative;
+    bottom:-292px;
+    left:7px;
+}
+
+#div_outer_history{
+    position:relative;
+    left:1450px;
+    bottom:360px;
+    height:857px;
+    width:300px;
+    background-color: white;
+    border:2px solid black;
+    display:flex;
+    justify-content: center;
+    /* background-color: white; */
+}
+#historyheading{
+    height:fit-content;
+    width:297px;
+    border:2px solid red;
+    /* background-color:cornsilk; */
+    background:linear-gradient(to right,red,orange,red);
+    display:flex;
+    justify-content: center;
+}
+
+#credit{
+    margin-top: 90px;
+    height:80px;
+    width:100vw;
+    background-color: beige;
+    font-size:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 550;
+}
+
+/* buttons div area */
+#Buttonsdiv{
+    height:10px;
+    width:1000px;
+    background-color: aquamarine;
+    position:relative;
+    top:30px;
+    display:flex;
+    justify-content:space-around;
+}
+.buttons{
+    width:800px;
+    height:40px;
+    font-size: large;
+    font-weight: 550;
+    background-color: lightsalmon;
+    transition-duration: 1s;
+    -o-transition-delay: 2s;
+}
+.buttons:hover{
+    border-color: black;
+    border-width:4px;
+    height:2.5em;
+    width:40.5em;
+    background-color: lightgreen;
+}
+#gifshower{
+    position:absolute;
+    bottom:0px;
+    height:300px;
+    width:300px;
+    background:url("https://media.tenor.com/_iuND6vkOsgAAAAi/win-best.gif");
+    background-size:cover;
+}
